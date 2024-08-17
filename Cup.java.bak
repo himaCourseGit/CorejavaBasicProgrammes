@@ -1,0 +1,21 @@
+class Cup 
+{
+	public Cup()
+	{
+System.out.println("cup fills");
+	}
+	public Cup()
+	{
+		this();
+System.out.println("cup floats");
+	}
+	public Cup()	
+	{
+		this();
+		System.out.println("cup is plastic");
+	}
+	public static void main(String[] args) 
+	{
+	Cup Cup1=new Cup();
+	}
+}

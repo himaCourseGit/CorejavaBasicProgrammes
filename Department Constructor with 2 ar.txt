@@ -1,0 +1,13 @@
+ <!--Department Constructor with 2 arguments-->
+  <bean id="depart" class="com.jsp.springcore2.Department" scope="prototype">
+  <constructor-arg value="102"></constructor-arg>
+  <constructor-arg value="Java"></constructor-arg>
+  </bean>
+  <!-- Employee Constructor with 5 arguments -->
+  <bean id="department" class="com.jsp.springcore2.Employee" scope="prototype">
+  <constructor-arg value="103" index="0"></constructor-arg>
+  <constructor-arg value="Hima" index="1"></constructor-arg>
+  <constructor-arg value="25000" index="2"></constructor-arg>
+  <constructor-arg value= "addr" ref="address"></constructor-arg>
+  <constructor-arg value="dept" ref="depart" ></constructor-arg> 
+  </bean>

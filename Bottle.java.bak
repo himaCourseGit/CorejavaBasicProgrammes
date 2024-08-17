@@ -1,0 +1,18 @@
+class Student
+{
+	public Student(int marks)
+	{
+		System.out.println("Student Constructor with arg");
+		System.ou.println("studentMarks:"+marks);
+	}
+	public Student()
+	{
+		this(89);
+		System.out.println(" Student Constructor without arguments");
+
+	}
+	public static void main(String[] args) 
+	{
+		Student Student1=new Student();
+	}
+}

@@ -1,0 +1,18 @@
+class Student 
+{
+	public static void main(String[] args) 
+	{
+
+		Study();
+		Student obj=new Student();
+
+	}
+	public static void Study()
+	{
+    obj.Room();
+	}
+	public void Room()
+	{
+
+	}
+}
